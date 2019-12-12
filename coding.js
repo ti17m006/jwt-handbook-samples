@@ -1,4 +1,4 @@
-import * as assert from 'assert';
+const assert = require('assert');
 
 const header = {
     alg: 'none'
@@ -44,6 +44,6 @@ assert.deepStrictEqual({
     payload: payload 
 }, decoded);
 
-console.log(`Encoded: ${encoded}`);
-console.log(`Decoded: ${JSON.stringify(decoded)}`);
+console.log(`Encoded: ${encoded} \n`);
+console.log(`Decoded: ${JSON.stringify(decoded)} \n`);
 
