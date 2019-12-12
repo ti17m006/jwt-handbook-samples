@@ -5,10 +5,9 @@ const header = {
 };
 
 const payload = {
-    sub: "user123",
-    session: "ch72gsb320000udocl363eofy",
-    name: "Pretty Name",
-    lastpage: "/views/settings"
+    id: "2",
+    username: "Gretchen",
+    fullname: "Kyle Godwin"
 };
 
 // URL-safe variant of Base64
